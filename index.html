@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-startpoint">
+        <li class="text">StartPoint</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-outercourtyard">
+        <li class="text">OuterCourtyard</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-entrance-ground-floor">
+        <li class="text">Entrance-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-pool-view-1">
+        <li class="text">Pool-View-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-pool-view-2">
+        <li class="text">Pool-View-2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-hall-ground-view1">
+        <li class="text">Hall-Ground-View1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-hall-ground-view2">
+        <li class="text">Hall-Ground-View2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-hall-ground-view3">
+        <li class="text">Hall-Ground-View3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-kitchin-ground-view1">
+        <li class="text">kitchin-Ground-View1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-kitchin-ground-view2">
+        <li class="text">Kitchin-Ground-View2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-corridor1-ground">
+        <li class="text">Corridor1-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-corridor2-ground">
+        <li class="text">Corridor2-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-livingroom-ground">
+        <li class="text">LivingRoom-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-corridor3-ground">
+        <li class="text">Corridor3-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-corridor4-ground">
+        <li class="text">Corridor4-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-room1-ground-floor">
+        <li class="text">Room1-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-atirum-ground-floor">
+        <li class="text">Atirum-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-corridor5-ground-floor">
+        <li class="text">Corridor5-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-room2-ground-floor">
+        <li class="text">Room2-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-room3-ground-floor">
+        <li class="text">Room3-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-bath-room-ground">
+        <li class="text">BatH-Room-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-landury-ground-floor">
+        <li class="text">Landury-Ground-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-bath-room-room3-ground">
+        <li class="text">Bath-Room-Room3-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-bath-room-room2-ground">
+        <li class="text">Bath-Room-Room2-Ground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-stair-to-basement">
+        <li class="text">Stair to Basement</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-corridor1-basement">
+        <li class="text">Corridor1-Basement</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-livingroom-basement">
+        <li class="text">LivingRoom-Basement</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-br-basement">
+        <li class="text">B.R-Basement</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-corridor2-basement">
+        <li class="text">Corridor2-Basement</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-atirum-basement-1">
+        <li class="text">Atirum-Basement-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-atirum-basement-2">
+        <li class="text">Atirum-Basement-2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-stair-to-first-floor">
+        <li class="text">Stair To First-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-corridor1-first-floor">
+        <li class="text">Corridor1-First-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-corridor2-first-floor">
+        <li class="text">Corridor2-First-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-corridor3-first-floor">
+        <li class="text">Corridor3-First-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-corridor4-first-floor">
+        <li class="text">Corridor4-First-Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-room-view1-firstfloor">
+        <li class="text">Room-View1-FirstFloor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-room-view2-firstfloor">
+        <li class="text">Room-View2-FirstFloor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-br-firstfloor">
+        <li class="text">B.R-FirstFLoor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-laundry-firstfloor">
+        <li class="text">laundry-FirstFloor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-outercourtyard1-first">
+        <li class="text">OuterCourtyard1-First</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-outercourtyard2-first">
+        <li class="text">OuterCourtyard2-First</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-outercoutyard3-first">
+        <li class="text">OuterCoutyard3-First</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
